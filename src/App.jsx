@@ -47,7 +47,7 @@ export default function App() {
   }, [guessedLetters, wrongGuesses, uniqueLetterCount]);
 
   return (
-    <div className="m-0 p-0 box-border w-screen h-screen bg-gray-400 font-[Inter]">
+    <div className="m-0 p-0 box-border w-screen min-h-screen bg-gray-400 font-[Inter]">
       <div className="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto text-center">
         <h1 className="text-3xl font-bold mb-10">Jogo da Forca</h1>
         <WordDisplay hiddenWord={hiddenWord} guessedLetters={guessedLetters} gameStatus={gameStatus} />
